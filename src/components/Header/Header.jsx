@@ -5,10 +5,10 @@ import Navbar from '../Navbar/Navbar';
 function Header() {
   /*const[isopen,open]=usestate[0];*/
   return (
-    <header className="relative w-full h-full md:h-screen bg-[url('/IMG_2347.png')] bg-cover bg-center">
+    <header className="relative min-h-[500px] md:min-h-screen  bg-[url('/IMG_2347.png')] bg-cover bg-center">
 
      
-      <div className="absolute inset-0 bg-black/40 flex items-end">
+      <div className="absolute inset-0 bg-gradient-to-t from-black/40 flex items-end">
         
         <div className="w-full  bg-cover bg-center 
                         px-6 sm:px-10 md:px-16 lg:px-24 
