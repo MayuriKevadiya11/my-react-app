@@ -40,7 +40,7 @@ function Categories_page() {
         
         </div>
    <Navbar/>
-    <div className="absolute top-60 left-70 text-white ">
+    <div className="absolute top-60 left-10 md:left-20 text-white ">
     <h1 className="text-3xl font-Cormorant md:text-5xl text-[#EFE6D6] leading-[100%] tracking-[0.05em] font-semibold">
       Categories Page
     </h1>
@@ -56,8 +56,8 @@ function Categories_page() {
   </div>
 
    </div>
-   <div className="w-full bg-[#FFEED0] py-16 px-20">
-    <div className='flex space-x-20 items-center'>
+   <div className="bg-[#FFEED0]  py-10 px-8 md:py-16 md:px-20">
+    <div className='flex space-x-10 md:space-x-20 items-center overflow-hidden'>
     <img src='Vector12.png'></img>
     <div>
    <img src="img2.png" alt="Profile 1" className="w-30 h-30 md:w-20 md:h-20 border-2 border-white rounded-full object-cover"/>  
@@ -78,7 +78,7 @@ function Categories_page() {
 
     <img  src='Vector12.png'></img>
       </div>
-    <h2 className="text-[118px] font-Cormorant md:text-5xl text-[#170809] leading-[100%] tracking-[0.05em] py-10 item-center font-semibold">Engagement Lehenga</h2>
+    <h2 className="text-2xl font-Cormorant md:text-5xl text-[#170809] leading-[100%] tracking-[0.05em] py-10 item-center font-semibold">Engagement Lehenga</h2>
    
    <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {images.map((item) => (

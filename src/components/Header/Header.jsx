@@ -5,20 +5,20 @@ import Navbar from '../Navbar/Navbar';
 function Header() {
   /*const[isopen,open]=usestate[0];*/
   return (
-    <header className="relative w-full h-screen bg-[url('/IMG_2347.png')] bg-cover bg-center">
+    <header className="relative w-full h-full md:h-screen bg-[url('/IMG_2347.png')] bg-cover bg-center">
 
      
       <div className="absolute inset-0 bg-black/40 flex items-end">
         
-        <div className="w-full bg-[url('/Rectangle4.png')] bg-cover bg-center mix-blend-soft-light 
+        <div className="w-full  bg-cover bg-center 
                         px-6 sm:px-10 md:px-16 lg:px-24 
                         py-10 sm:py-16 md:py-20 
                         text-center">
 
           <h1 className="font-cormorant font-semibold 
-                         text-2xl sm:text-4xl md:text-5xl lg:text-6xl 
-                         tracking-[4px] sm:tracking-[6px] 
-                         text-[#EFE6D6]">
+                         text-2xl sm:text-4xl md:text-4xl lg:text-6xl 
+                         tracking-[4px] sm:tracking-[0.05m] 
+                         text-white">
             Best Collection Ever
           </h1>
 
@@ -32,18 +32,7 @@ function Header() {
             Ut enim ad minim veniam.
           </p>
 
-          <a
-            href="#"
-            className="mt-6 inline-block 
-                       px-6 py-2 sm:px-8 sm:py-3 
-                       border border-[#EFE6D6] 
-                       text-sm sm:text-base 
-                       font-josefin font-semibold 
-                       text-[#EFE6D6] 
-                       hover:bg-[#EFE6D6] hover:text-black 
-                       transition duration-300">
-            Explore More
-          </a>
+          
 
         </div>
       </div>
